@@ -1,0 +1,94 @@
+{
+    "devices": {
+        "Router_1": {
+            "label": "Router 1",
+            "icon_coords": [
+                321.0,
+                166.0
+            ],
+            "ip": "192.168.1.246",
+            "mac": "f8:ea:17:a6:33:ba",
+            "subnet": "255.255.255.0"
+        },
+        "Router_2": {
+            "label": "Router 2",
+            "icon_coords": [
+                527.0,
+                296.0
+            ],
+            "ip": "192.168.1.20",
+            "mac": "20:e6:af:7c:68:dc",
+            "subnet": "255.255.255.0"
+        },
+        "Laptop_1": {
+            "label": "Laptop 1",
+            "icon_coords": [
+                615.0,
+                443.0
+            ],
+            "ip": "192.168.1.169",
+            "mac": "2e:df:19:a8:49:d0",
+            "subnet": "255.255.255.0"
+        },
+        "Laptop_2": {
+            "label": "Laptop 2",
+            "icon_coords": [
+                882.0,
+                356.0
+            ],
+            "ip": "192.168.1.209",
+            "mac": "f6:ef:66:65:59:89",
+            "subnet": "255.255.255.0"
+        },
+        "Server_1": {
+            "label": "Server 1",
+            "icon_coords": [
+                828.0,
+                103.0
+            ],
+            "ip": "192.168.1.1",
+            "mac": "d2:43:18:36:75:14",
+            "subnet": "255.255.255.0"
+        },
+        "Smartphone_1": {
+            "label": "Smartphone 1",
+            "icon_coords": [
+                301.0,
+                446.0
+            ],
+            "ip": "192.168.1.119",
+            "mac": "7f:5a:ef:34:56:12",
+            "subnet": "255.255.255.0"
+        }
+    },
+    "connections": [
+        [
+            "Router_1",
+            "Router_2"
+        ],
+        [
+            "Router_2",
+            "Laptop_1"
+        ],
+        [
+            "Laptop_1",
+            "Server_1"
+        ],
+        [
+            null,
+            null
+        ],
+        [
+            "Laptop_2",
+            "Server_1"
+        ],
+        [
+            "Router_2",
+            "Laptop_2"
+        ],
+        [
+            "Laptop_1",
+            "Smartphone_1"
+        ]
+    ]
+}
